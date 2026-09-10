@@ -10,11 +10,19 @@
 
 Enterprise AI Search platforms go beyond traditional keyword search by combining **full-text search, semantic/vector retrieval, natural-language understanding, machine learning, knowledge graphs, personalization, connectors, access-control enforcement, and generative AI**.
 
-
-
 This repository focuses primarily on **open-source alternatives** that can be used to build self-hosted equivalents of commercial Enterprise AI Search platforms.
 
+### 🏷️ SEO & Industry Topics
+`enterprise-search` • `ai-search` • `semantic-search` • `vector-database` • `hybrid-retrieval` • `rag` • `retrieval-augmented-generation` • `knowledge-graphs` • `neural-search` • `workplace-search` • `glean-alternative` • `coveo-alternative` • `elastic-search` • `opensearch` • `document-processing`
 
+---
+
+## 🎯 Key Highlights & Architecture Themes
+
+* 🔍 **Hybrid Retrieval**: Combining BM25 keyword precision with dense embedding semantic search and cross-encoder rerankers.
+* 🔐 **Enterprise Security Trimming**: Document-level and field-level Access Control Lists (ACLs) using ReBAC/RBAC engines (OpenFGA, OPA, Keycloak).
+* 🕸️ **Knowledge Graphs & Entity Resolution**: Connecting people, documents, tickets, and corporate entities for deep contextual reasoning.
+* ⚡ **Open-Source Freedom**: Fully self-hostable, air-gapped, privacy-first architectures replacing expensive SaaS platforms.
 
 ---
 
@@ -59,6 +67,8 @@ This repository focuses primarily on **open-source alternatives** that can be us
 * [🧱 Enterprise AI Search Layers](#-enterprise-ai-search-layers)
 
 * [🗺️ Enterprise AI Search Landscape](#️-enterprise-ai-search-landscape)
+
+* [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 
 * [🤝 Contributing](#-contributing)
 
@@ -2364,13 +2374,21 @@ The term **"Open-Source"** in this repository is intended to prioritize projects
 
 
 
-Always verify the current license and terms of the individual project before deploying it commercially.
+## ❓ Frequently Asked Questions (FAQ)
 
+### What is Enterprise AI Search?
+Enterprise AI Search is an intelligent workplace and organizational retrieval architecture that indexes data across disparate enterprise tools (e.g. Google Drive, Confluence, Slack, Jira, Notion, databases, and internal document repositories). Unlike generic keyword search, Enterprise AI Search leverages dense vector retrieval, BM25 inverted indexing, knowledge graph relationships, and LLM-powered re-ranking while strictly enforcing real-time document-level Access Control Lists (ACLs).
 
+### Why is Hybrid Retrieval (BM25 + Dense Vectors) required?
+Pure vector search frequently struggles with exact entity matches, error codes, SKUs, timestamps, and industry acronyms. Hybrid search fuses BM25 lexical precision with dense embedding semantic understanding using algorithms like Reciprocal Rank Fusion (RRF) and cross-encoder rerankers to maximize search accuracy and recall.
+
+### What are the top self-hosted open-source alternatives to Glean?
+The most complete open-source equivalent to Glean is **Onyx** (formerly Danswer), which provides 40+ native enterprise connectors, document-level permission sync, web search, and a chat UI. For custom, massive-scale architectures, teams assemble **OpenSearch** or **Vespa** paired with **Qdrant** / **Milvus**, **Keycloak** / **OpenFGA** for permissions, and **Docling** / **MinerU** for document extraction.
+
+### How is security and permissions trimming handled in Enterprise AI Search?
+Enterprise AI Search platforms enforce document authorization using Pre-Retrieval or Post-Retrieval Security Trimming. Identity information from an IdP (e.g., Keycloak, Okta) is matched against permission trees in ReBAC engines (like OpenFGA or Google Zanzibar models) so that unauthenticated documents are pruned before reaching the generative context or user response.
 
 ---
-
-
 
 ## ⭐ Star This Repository
 
