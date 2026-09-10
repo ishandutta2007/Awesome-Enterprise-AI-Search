@@ -1,6 +1,8 @@
-# Awesome-Enterprise-AI-Search
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Enterprise AI Search Banner" width="100%" />
+</p>
 
-# 🔎 Top Enterprise AI Search
+# 🔎 Awesome Enterprise AI Search
 
 
 
