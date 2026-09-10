@@ -85,6 +85,8 @@ This repository focuses primarily on **open-source alternatives** that can be us
 
 * [🤝 Contributing](#-contributing)
 
+* [⭐ Star History](#-star-history)
+
 * [⚠️ Disclaimer](#️-disclaimer)
 
 
@@ -2385,10 +2387,12 @@ If you are interested in:
 
 consider giving this repository a ⭐ **Star** and contributing new projects.
 
-
-
 ---
 
+##  Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-AI-Search&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-AI-Search&type=date&legend=top-left)
+
+---
 
 **Last updated: September 2026**
