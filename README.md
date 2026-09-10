@@ -1,2 +1,2493 @@
 # Awesome-Enterprise-AI-Search
 
+# 🔎 Top Enterprise AI Search
+
+
+
+> A curated list of **Enterprise AI Search** platforms and open-source alternatives for intelligent workplace search, semantic search, vector search, hybrid retrieval, RAG, knowledge discovery, and AI-powered enterprise knowledge access.
+
+
+
+Enterprise AI Search platforms go beyond traditional keyword search by combining **full-text search, semantic/vector retrieval, natural-language understanding, machine learning, knowledge graphs, personalization, connectors, access-control enforcement, and generative AI**.
+
+
+
+This repository focuses primarily on **open-source alternatives** that can be used to build self-hosted equivalents of commercial Enterprise AI Search platforms.
+
+
+
+---
+
+
+
+## 📑 Table of Contents
+
+
+
+* [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+
+* [🌍 Open-Source](#-open-source)
+
+* [🔎 Open-Source Enterprise Search Platforms](#-open-source-enterprise-search-platforms)
+
+* [🧠 Open-Source Neural & Semantic Search](#-open-source-neural--semantic-search)
+
+* [📚 Open-Source RAG & Knowledge Platforms](#-open-source-rag--knowledge-platforms)
+
+* [🗂️ Open-Source Search Engines & Indexing](#️-open-source-search-engines--indexing)
+
+* [📄 Open-Source Document Processing & Ingestion](#-open-source-document-processing--ingestion)
+
+* [🧮 Open-Source Vector Databases](#-open-source-vector-databases)
+
+* [🕸️ Open-Source Knowledge Graphs](#️-open-source-knowledge-graphs)
+
+* [🔐 Open-Source Search Security & Access Control](#-open-source-search-security--access-control)
+
+* [📊 Open-Source Search Analytics & Observability](#-open-source-search-analytics--observability)
+
+* [🏗️ Enterprise AI Search Architecture](#️-enterprise-ai-search-architecture)
+
+* [🔄 Open-Source Enterprise AI Search Architecture](#-open-source-enterprise-ai-search-architecture)
+
+* [🧩 Commercial Platform → Open-Source Equivalent](#-commercial-platform--open-source-equivalent)
+
+* [⚖️ Commercial vs Open-Source](#️-commercial-vs-open-source)
+
+* [🚀 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
+
+* [🧱 Enterprise AI Search Layers](#-enterprise-ai-search-layers)
+
+* [🗺️ Enterprise AI Search Landscape](#️-enterprise-ai-search-landscape)
+
+* [🤝 Contributing](#-contributing)
+
+* [⚠️ Disclaimer](#️-disclaimer)
+
+
+
+---
+
+
+
+# ☁️ SaaS/Hosted Platforms
+
+
+
+Commercial Enterprise AI Search platforms provide managed indexing, enterprise connectors, relevance tuning, semantic/vector search, personalization, security trimming, analytics, and increasingly RAG and agentic search.
+
+
+
+| Platform                                                                                    | Company      | Primary Focus                  | Key Capabilities                                                                                       |
+
+| ------------------------------------------------------------------------------------------- | ------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------ |
+
+| [Glean](https://www.glean.com/)                                                             | Glean        | Workplace / Enterprise Search  | AI search, knowledge graph, 275+ connectors, semantic search, permissions, personalization, AI answers |
+
+| [Coveo](https://www.coveo.com/)                                                             | Coveo        | Enterprise AI Search           | AI relevance, semantic search, personalization, recommendations, RAG, commerce/workplace search        |
+
+| [Elastic AI Search](https://www.elastic.co/enterprise-search)                               | Elastic      | Enterprise Search & AI Search  | Full-text, vector, hybrid search, RAG, relevance, observability                                        |
+
+| [Google Vertex AI Search](https://cloud.google.com/enterprise-search)                       | Google Cloud | Enterprise / Generative Search | Semantic search, RAG, grounding, connectors, generative answers                                        |
+
+| [Azure AI Search](https://azure.microsoft.com/products/ai-services/ai-search)               | Microsoft    | Enterprise Retrieval           | Full-text, vector, hybrid, multimodal, agentic retrieval, RAG                                          |
+
+| [IBM watsonx Discovery](https://www.ibm.com/products/watson-discovery)                      | IBM          | Enterprise Knowledge Discovery | NLP, document understanding, search, discovery, AI-powered insights                                    |
+
+| [Yext Search](https://www.yext.com/platform/search)                                         | Yext         | Digital / Enterprise Search    | AI search, knowledge graph, semantic search, structured content                                        |
+
+| [Lucidworks Fusion](https://lucidworks.com/platform/)                                       | Lucidworks   | Enterprise Search              | Search applications, AI relevance, connectors, personalization, Solr-based architecture                |
+
+| [Algolia NeuralSearch](https://www.algolia.com/products/features/neuralsearch)              | Algolia      | AI Application Search          | Hybrid keyword + vector search, neural relevance, personalization, autocomplete                        |
+
+| [Sinequa](https://www.sinequa.com/)                                                         | Sinequa      | Enterprise Knowledge Search    | AI enterprise search, NLP, semantic search, knowledge discovery, RAG                                   |
+
+| [Amazon Kendra](https://aws.amazon.com/kendra/)                                             | AWS          | Enterprise Search              | Connectors, semantic search, natural-language queries, enterprise content                              |
+
+| [Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/)                     | AWS          | Managed Search                 | Full-text, vector, hybrid search, neural search, RAG                                                   |
+
+| [Azure AI Foundry / Foundry IQ](https://azure.microsoft.com/products/ai-services/ai-search) | Microsoft    | Agentic Enterprise Knowledge   | Knowledge bases, agentic retrieval, grounding, enterprise data                                         |
+
+| [Salesforce Agentforce Search](https://www.salesforce.com/agentforce/)                      | Salesforce   | CRM / Enterprise Knowledge     | Enterprise data retrieval, grounding, AI agents                                                        |
+
+| [ServiceNow AI Search](https://www.servicenow.com/products/ai-search.html)                  | ServiceNow   | Enterprise / IT Search         | Knowledge search, semantic understanding, contextual results                                           |
+
+| [Atlassian Rovo](https://www.atlassian.com/software/rovo)                                   | Atlassian    | Workplace Knowledge Search     | Enterprise search, AI answers, knowledge discovery, agents                                             |
+
+| [Dropbox Dash](https://www.dropbox.com/dash)                                                | Dropbox      | Workplace Search               | Unified search, AI answers, connected knowledge                                                        |
+
+| [Notion Enterprise Search](https://www.notion.com/product/enterprise-search)                | Notion       | Workplace Search               | Cross-app search, AI answers, workspace knowledge                                                      |
+
+| [Guru](https://www.getguru.com/)                                                            | Guru         | Enterprise Knowledge           | Knowledge management, AI search, verification, contextual answers                                      |
+
+| [Hebbia](https://www.hebbia.com/)                                                           | Hebbia       | Enterprise Knowledge Work      | AI search, document reasoning, knowledge retrieval                                                     |
+
+| [Korra](https://www.korra.ai/)                                                              | Korra        | Enterprise AI Search           | Enterprise knowledge retrieval and AI answers                                                          |
+
+| [SearchUnify](https://www.searchunify.com/)                                                 | SearchUnify  | Enterprise Search              | AI search, semantic search, customer/employee knowledge                                                |
+
+| [Coveo Relevance Cloud](https://www.coveo.com/en/products/relevance-cloud)                  | Coveo        | AI Relevance                   | Search, recommendations, personalization, generative answering                                         |
+
+
+
+> **Note:** Commercial platforms differ substantially in connector ecosystems, security trimming, ranking models, analytics, personalization, and managed infrastructure. They are not all interchangeable.
+
+
+
+---
+
+
+
+# 🌍 Open-Source
+
+
+
+Open-source Enterprise AI Search can be assembled from a combination of:
+
+
+
+```text
+
+Search Engine
+
+      +
+
+Semantic / Vector Search
+
+      +
+
+Document Processing
+
+      +
+
+Connectors / Crawlers
+
+      +
+
+RAG
+
+      +
+
+Knowledge Graph
+
+      +
+
+Access Control
+
+      +
+
+LLM / Embedding Models
+
+      +
+
+Observability
+
+```
+
+
+
+The strongest open-source approach is therefore usually **composable rather than a single product**.
+
+
+
+---
+
+
+
+# 🔎 Open-Source Enterprise Search Platforms
+
+
+
+| Project                                                | License    | Description                                                                                                                      |
+
+| ------------------------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+
+| [OpenSearch](https://opensearch.org/)                  | Apache-2.0 | Open-source distributed search and analytics platform with full-text, vector, hybrid, neural search, RAG and enterprise security |
+
+| [Vespa](https://vespa.ai/)                             | Apache-2.0 | Open-source AI search platform combining text, vectors, tensors, structured data and machine-learned ranking                     |
+
+| [Apache Solr](https://solr.apache.org/)                | Apache-2.0 | Mature enterprise search platform built on Apache Lucene with full-text, vector, faceting and distributed search                 |
+
+| [Apache Lucene](https://lucene.apache.org/)            | Apache-2.0 | High-performance search library underlying many modern search engines                                                            |
+
+| [Typesense](https://typesense.org/)                    | GPL-3.0    | Developer-friendly open-source search engine with typo tolerance, faceting, semantic/vector search and fast autocomplete         |
+
+| [Meilisearch](https://www.meilisearch.com/)            | MIT        | Fast open-source search engine optimized for developer-friendly instant search                                                   |
+
+| [Quickwit](https://quickwit.io/)                       | Apache-2.0 | Cloud-native distributed search engine optimized for object storage and large-scale search                                       |
+
+| [Tantivy](https://github.com/quickwit-oss/tantivy)     | MIT        | Rust search engine library inspired by Lucene                                                                                    |
+
+| [ZincSearch](https://github.com/zincsearch/zincsearch) | Apache-2.0 | Lightweight open-source search and analytics engine                                                                              |
+
+| [Sonic](https://github.com/valeriansaliou/sonic)       | MPL-2.0    | Lightweight search backend for fast text indexing and querying                                                                   |
+
+
+
+---
+
+
+
+# 🧠 Open-Source Neural & Semantic Search
+
+
+
+Modern Enterprise AI Search typically combines **BM25 / lexical retrieval + dense vector retrieval + reranking**.
+
+
+
+| Project                                                                         | License            | Primary Capability                                                 |
+
+| ------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------ |
+
+| [OpenSearch Neural Search](https://github.com/opensearch-project/neural-search) | Apache-2.0         | Neural retrieval, embeddings, semantic search and hybrid retrieval |
+
+| [Vespa](https://vespa.ai/)                                                      | Apache-2.0         | Vector, tensor, text and structured retrieval with ML ranking      |
+
+| [Apache Solr](https://solr.apache.org/)                                         | Apache-2.0         | Full-text + vector search + hybrid retrieval                       |
+
+| [Apache Lucene](https://lucene.apache.org/)                                     | Apache-2.0         | Full-text and approximate nearest-neighbor vector search           |
+
+| [Qdrant](https://qdrant.tech/)                                                  | Apache-2.0         | Vector database and semantic retrieval engine                      |
+
+| [Milvus](https://milvus.io/)                                                    | Apache-2.0         | Distributed vector database for large-scale AI retrieval           |
+
+| [pgvector](https://github.com/pgvector/pgvector)                                | PostgreSQL License | Vector similarity search directly inside PostgreSQL                |
+
+| [Faiss](https://github.com/facebookresearch/faiss)                              | MIT                | High-performance vector similarity search library                  |
+
+| [Annoy](https://github.com/spotify/annoy)                                       | Apache-2.0         | Approximate nearest-neighbor search library                        |
+
+| [HNSWlib](https://github.com/nmslib/hnswlib)                                    | Apache-2.0         | Fast approximate nearest-neighbor search using HNSW                |
+
+| [ScaNN](https://github.com/google-research/google-research/tree/master/scann)   | Apache-2.0         | Efficient vector similarity search                                 |
+
+| [USearch](https://github.com/unum-cloud/usearch)                                | Apache-2.0         | Compact high-performance vector search library                     |
+
+
+
+### Hybrid Search
+
+
+
+```text
+
+                  User Query
+
+                      │
+
+             ┌────────┴────────┐
+
+             │                 │
+
+       Keyword Search      Vector Search
+
+          (BM25)          (Embeddings)
+
+             │                 │
+
+             └────────┬────────┘
+
+                      │
+
+                Result Fusion
+
+                      │
+
+                  Reranker
+
+                      │
+
+               Final Results
+
+```
+
+
+
+Hybrid retrieval is particularly important for Enterprise AI Search because exact identifiers, names, product codes and acronyms often require lexical search while natural-language questions benefit from semantic retrieval.
+
+
+
+---
+
+
+
+# 📚 Open-Source RAG & Knowledge Platforms
+
+
+
+| Project                                                      | License      | Description                                                                               |
+
+| ------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------- |
+
+| [RAGFlow](https://github.com/infiniflow/ragflow)             | Apache-2.0   | Open-source RAG engine with deep document understanding, retrieval and agent capabilities |
+
+| [Dify](https://github.com/langgenius/dify)                   | Apache-2.0   | Open-source LLM application platform with RAG, workflows, agents and knowledge bases      |
+
+| [LlamaIndex](https://github.com/run-llama/llama_index)       | MIT          | Framework for connecting LLMs to enterprise data and building retrieval systems           |
+
+| [Haystack](https://github.com/deepset-ai/haystack)           | Apache-2.0   | Open-source framework for RAG, semantic search, document retrieval and AI pipelines       |
+
+| [LangChain](https://github.com/langchain-ai/langchain)       | MIT          | Framework for retrieval, agents, tools and LLM applications                               |
+
+| [LangGraph](https://github.com/langchain-ai/langgraph)       | MIT          | Agent orchestration framework useful for agentic search                                   |
+
+| [Open WebUI](https://github.com/open-webui/open-webui)       | BSD-3-Clause | Self-hosted AI interface with document/RAG capabilities                                   |
+
+| [LibreChat](https://github.com/danny-avila/LibreChat)        | MIT          | Open-source AI assistant platform with RAG and enterprise integrations                    |
+
+| [Flowise](https://github.com/FlowiseAI/Flowise)              | Apache-2.0   | Visual builder for LLM, RAG and agent workflows                                           |
+
+| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | MIT          | Self-hosted document-centric AI/RAG platform                                              |
+
+| [Khoj](https://github.com/khoj-ai/khoj)                      | AGPL-3.0     | Open-source personal knowledge and AI search system                                       |
+
+| [PrivateGPT](https://github.com/zylon-ai/private-gpt)        | Apache-2.0   | Private document Q&A and RAG platform                                                     |
+
+| [GraphRAG](https://github.com/microsoft/graphrag)            | MIT          | Graph-based retrieval approach for connecting unstructured data and LLMs                  |
+
+| [LightRAG](https://github.com/HKUDS/LightRAG)                | MIT          | Lightweight graph-based RAG framework                                                     |
+
+
+
+---
+
+
+
+# 📄 Open-Source Document Processing & Ingestion
+
+
+
+Enterprise search is only as good as its ingestion pipeline.
+
+
+
+| Project                                                          | License               | Description                                                  |
+
+| ---------------------------------------------------------------- | --------------------- | ------------------------------------------------------------ |
+
+| [Apache Tika](https://tika.apache.org/)                          | Apache-2.0            | Extracts text and metadata from hundreds of document formats |
+
+| [Docling](https://github.com/docling-project/docling)            | MIT                   | Document parsing and conversion for AI/RAG pipelines         |
+
+| [Unstructured](https://github.com/Unstructured-IO/unstructured)  | Apache-2.0            | Extracts and partitions content from complex documents       |
+
+| [Marker](https://github.com/datalab-to/marker)                   | GPL-3.0               | Converts PDFs and documents into structured Markdown         |
+
+| [PyMuPDF](https://github.com/pymupdf/PyMuPDF)                    | AGPL-3.0 / Commercial | High-performance PDF processing and text extraction          |
+
+| [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)      | Apache-2.0            | Open-source OCR engine                                       |
+
+| [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)                 | MPL-2.0               | Adds OCR text layers to scanned PDFs                         |
+
+| [Apache PDFBox](https://pdfbox.apache.org/)                      | Apache-2.0            | Java PDF processing library                                  |
+
+| [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) | MIT                   | HTML/XML extraction and parsing                              |
+
+| [Scrapy](https://scrapy.org/)                                    | BSD-3-Clause          | Web crawling and scraping framework                          |
+
+| [Playwright](https://github.com/microsoft/playwright)            | Apache-2.0            | Browser automation useful for dynamic web crawling           |
+
+
+
+---
+
+
+
+# 🧮 Open-Source Vector Databases
+
+
+
+| Project                                            | License            | Description                                                          |
+
+| -------------------------------------------------- | ------------------ | -------------------------------------------------------------------- |
+
+| [Qdrant](https://github.com/qdrant/qdrant)         | Apache-2.0         | Production-grade vector database with filtering and hybrid retrieval |
+
+| [Milvus](https://github.com/milvus-io/milvus)      | Apache-2.0         | Distributed vector database for large-scale AI applications          |
+
+| [pgvector](https://github.com/pgvector/pgvector)   | PostgreSQL License | Vector similarity search for PostgreSQL                              |
+
+| [Weaviate](https://github.com/weaviate/weaviate)   | BSD-3-Clause       | Vector database with semantic search and AI integrations             |
+
+| [Chroma](https://github.com/chroma-core/chroma)    | Apache-2.0         | Developer-focused embedding and vector database                      |
+
+| [FAISS](https://github.com/facebookresearch/faiss) | MIT                | Vector similarity search library                                     |
+
+| [Vespa](https://vespa.ai/)                         | Apache-2.0         | Search engine and vector/tensor database capabilities                |
+
+| [OpenSearch](https://opensearch.org/)              | Apache-2.0         | Search engine with integrated vector capabilities                    |
+
+
+
+---
+
+
+
+# 🕸️ Open-Source Knowledge Graphs
+
+
+
+Knowledge graphs are particularly important for building **Glean-like enterprise search** because they connect documents, people, teams, projects, applications and business entities.
+
+
+
+| Project                                                   | License                | Description                                                             |
+
+| --------------------------------------------------------- | ---------------------- | ----------------------------------------------------------------------- |
+
+| [Apache Jena](https://jena.apache.org/)                   | Apache-2.0             | Semantic web and RDF knowledge graph framework                          |
+
+| [Neo4j Community Edition](https://github.com/neo4j/neo4j) | GPL-3.0                | Graph database for relationships and knowledge graphs                   |
+
+| [JanusGraph](https://janusgraph.org/)                     | Apache-2.0             | Distributed graph database                                              |
+
+| [Memgraph](https://github.com/memgraph/memgraph)          | BSL / Community        | High-performance graph database; verify license for intended deployment |
+
+| [ArangoDB](https://github.com/arangodb/arangodb)          | Apache-2.0 / Community | Multi-model database with graph capabilities; verify edition/license    |
+
+| [RDF4J](https://rdf4j.org/)                               | Eclipse License        | RDF database and semantic graph framework                               |
+
+| [GraphDB Free](https://graphdb.ontotext.com/)             | Free edition           | RDF knowledge graph platform; licensing varies by edition               |
+
+
+
+---
+
+
+
+# 🔐 Open-Source Search Security & Access Control
+
+
+
+Enterprise search requires **security trimming** so users cannot retrieve documents they are not authorized to access.
+
+
+
+| Project                                                                                           | License    | Role                                                               |
+
+| ------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------ |
+
+| [OpenSearch Security](https://opensearch.org/docs/latest/security/)                               | Apache-2.0 | Authentication, authorization, roles and document/field security   |
+
+| [Keycloak](https://www.keycloak.org/)                                                             | Apache-2.0 | Identity and access management                                     |
+
+| [Open Policy Agent](https://www.openpolicyagent.org/)                                             | Apache-2.0 | General-purpose policy engine                                      |
+
+| [Apache Ranger](https://ranger.apache.org/)                                                       | Apache-2.0 | Fine-grained access control and authorization                      |
+
+| [OPA + Rego](https://www.openpolicyagent.org/docs/latest/policy-language/)                        | Apache-2.0 | Policy-as-code for authorization                                   |
+
+| [Casbin](https://github.com/casbin/casbin)                                                        | Apache-2.0 | Authorization library supporting RBAC, ABAC and ACL                |
+
+| [OpenFGA](https://github.com/openfga/openfga)                                                     | Apache-2.0 | Relationship-based authorization                                   |
+
+| [Zanzibar](https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/) | Research   | Conceptual model for large-scale relationship-based access control |
+
+
+
+### Enterprise Search Security Model
+
+
+
+```text
+
+                    Enterprise User
+
+                          │
+
+                    Authentication
+
+                          │
+
+                       Identity
+
+                          │
+
+                 ┌────────┴────────┐
+
+                 │                 │
+
+             Groups/Roles       Attributes
+
+                 │                 │
+
+                 └────────┬────────┘
+
+                          │
+
+                    Authorization
+
+                          │
+
+                    Search Query
+
+                          │
+
+                  Security Trimming
+
+                          │
+
+                   Search Results
+
+                          │
+
+                  ┌───────┴───────┐
+
+                  │               │
+
+              Allowed          Denied
+
+              Documents       Documents
+
+```
+
+
+
+---
+
+
+
+# 📊 Open-Source Search Analytics & Observability
+
+
+
+| Project                                                 | License             | Description                           |
+
+| ------------------------------------------------------- | ------------------- | ------------------------------------- |
+
+| [OpenTelemetry](https://opentelemetry.io/)              | Apache-2.0          | Distributed tracing, metrics and logs |
+
+| [Prometheus](https://prometheus.io/)                    | Apache-2.0          | Metrics and monitoring                |
+
+| [Grafana](https://grafana.com/oss/grafana/)             | AGPL-3.0            | Observability dashboards              |
+
+| [OpenSearch Dashboards](https://opensearch.org/)        | Apache-2.0          | Search analytics and dashboards       |
+
+| [Langfuse](https://github.com/langfuse/langfuse)        | MIT                 | LLM observability and tracing         |
+
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix)    | Elastic License 2.0 | LLM/RAG observability and evaluation  |
+
+| [Evidently](https://github.com/evidentlyai/evidently)   | Apache-2.0          | ML/AI evaluation and monitoring       |
+
+| [WhyLogs](https://github.com/whylabs/whylogs)           | Apache-2.0          | Data and ML monitoring                |
+
+| [OpenLLMetry](https://github.com/traceloop/openllmetry) | Apache-2.0          | OpenTelemetry-based LLM observability |
+
+
+
+---
+
+
+
+# 🏗️ Enterprise AI Search Architecture
+
+
+
+```mermaid
+
+flowchart TD
+
+
+
+    A[Enterprise User] --> B[Search / AI Assistant]
+
+
+
+    B --> C[Query Understanding]
+
+
+
+    C --> D[Search Orchestrator]
+
+
+
+    D --> E[Keyword Search]
+
+    D --> F[Vector Search]
+
+    D --> G[Knowledge Graph]
+
+
+
+    E --> H[Hybrid Retrieval]
+
+    F --> H
+
+    G --> H
+
+
+
+    H --> I[Reranking]
+
+
+
+    I --> J[Security Filtering]
+
+
+
+    J --> K[Context Builder]
+
+
+
+    K --> L[LLM]
+
+
+
+    L --> M[Grounded Answer]
+
+
+
+    M --> N[Citations / Sources]
+
+
+
+    O[Enterprise Data Sources] --> P[Connectors]
+
+
+
+    P --> Q[Document Processing]
+
+
+
+    Q --> R[Chunking]
+
+
+
+    R --> S[Embeddings]
+
+
+
+    S --> F
+
+
+
+    Q --> E
+
+
+
+    Q --> G
+
+
+
+    O --> P
+
+```
+
+
+
+---
+
+
+
+# 🔄 Open-Source Enterprise AI Search Architecture
+
+
+
+A fully open-source Glean/Coveo/Sinequa-style system can be assembled from several specialized components.
+
+
+
+```mermaid
+
+flowchart LR
+
+
+
+    A[Google Drive] --> I[Connectors]
+
+    B[Slack] --> I
+
+    C[GitHub] --> I
+
+    D[Confluence] --> I
+
+    E[SharePoint] --> I
+
+    F[Email] --> I
+
+    G[Databases] --> I
+
+    H[Websites] --> I
+
+
+
+    I --> J[Apache Tika / Unstructured / Docling]
+
+
+
+    J --> K[Document Processing]
+
+
+
+    K --> L[Apache Lucene / OpenSearch / Solr]
+
+    K --> M[Qdrant / Milvus / pgvector]
+
+    K --> N[Knowledge Graph]
+
+
+
+    L --> O[Hybrid Retrieval]
+
+    M --> O
+
+    N --> O
+
+
+
+    O --> P[Reranker]
+
+
+
+    P --> Q[Security Filter]
+
+
+
+    Q --> R[LLM]
+
+
+
+    R --> S[Grounded Answer]
+
+
+
+    S --> T[Citations]
+
+```
+
+
+
+---
+
+
+
+# 🧩 Commercial Platform → Open-Source Equivalent
+
+
+
+| Commercial Platform         | Open-Source Building Blocks                                                                       |
+
+| --------------------------- | ------------------------------------------------------------------------------------------------- |
+
+| **Glean**                   | OpenSearch + Apache Tika + Qdrant + Keycloak + OpenFGA + LlamaIndex + LangGraph + knowledge graph |
+
+| **Coveo**                   | OpenSearch / Vespa + hybrid retrieval + reranking + Qdrant + ML ranking + OpenTelemetry           |
+
+| **Elastic AI Search**       | OpenSearch / Apache Solr + vector search + RAG + OpenTelemetry                                    |
+
+| **Google Vertex AI Search** | OpenSearch / Vespa + LlamaIndex + RAGFlow + Qdrant + open embedding models                        |
+
+| **Azure AI Search**         | OpenSearch + Apache Tika + Qdrant + LlamaIndex + vLLM                                             |
+
+| **IBM watsonx Discovery**   | Apache Tika + OpenSearch + Haystack + Qdrant + LLM                                                |
+
+| **Yext Search**             | Knowledge graph + OpenSearch / Vespa + structured content APIs                                    |
+
+| **Lucidworks Fusion**       | Apache Solr + Apache Spark + Tika + ML/RAG components                                             |
+
+| **Algolia NeuralSearch**    | Typesense / Meilisearch + vector database + hybrid retrieval + reranker                           |
+
+| **Sinequa**                 | OpenSearch / Solr + Tika + NLP models + knowledge graph + RAG                                     |
+
+| **Amazon Kendra**           | OpenSearch + connectors + Tika + embeddings + RAG                                                 |
+
+| **ServiceNow AI Search**    | OpenSearch + Keycloak/OpenFGA + RAG + enterprise connectors                                       |
+
+| **Atlassian Rovo**          | OpenSearch + LlamaIndex + knowledge graph + RAG + connectors                                      |
+
+
+
+---
+
+
+
+# 🔬 Enterprise Search Retrieval Pipeline
+
+
+
+```mermaid
+
+flowchart TD
+
+
+
+    A[User Query]
+
+
+
+    A --> B[Query Classification]
+
+
+
+    B --> C{Query Type}
+
+
+
+    C -->|Exact| D[BM25 / Keyword]
+
+    C -->|Semantic| E[Vector Search]
+
+    C -->|Complex| F[Hybrid Search]
+
+    C -->|Relationship| G[Knowledge Graph]
+
+
+
+    D --> H[Candidate Documents]
+
+    E --> H
+
+    F --> H
+
+    G --> H
+
+
+
+    H --> I[Metadata Filtering]
+
+
+
+    I --> J[Permission Filtering]
+
+
+
+    J --> K[Reranking]
+
+
+
+    K --> L[Top-K Context]
+
+
+
+    L --> M[LLM]
+
+
+
+    M --> N[Answer]
+
+
+
+    N --> O[Citations]
+
+```
+
+
+
+---
+
+
+
+# 🧠 Enterprise Search with RAG
+
+
+
+```mermaid
+
+flowchart LR
+
+
+
+    A[Enterprise Documents]
+
+        --> B[Ingestion]
+
+
+
+    B --> C[Parsing]
+
+
+
+    C --> D[Chunking]
+
+
+
+    D --> E[Embeddings]
+
+
+
+    E --> F[(Vector DB)]
+
+
+
+    C --> G[(Search Index)]
+
+
+
+    A --> H[(Knowledge Graph)]
+
+
+
+    Q[User Question]
+
+        --> R[Query Understanding]
+
+
+
+    R --> S[Hybrid Retrieval]
+
+
+
+    F --> S
+
+    G --> S
+
+    H --> S
+
+
+
+    S --> T[Reranker]
+
+
+
+    T --> U[Context]
+
+
+
+    U --> V[LLM]
+
+
+
+    V --> W[Grounded Answer]
+
+
+
+    W --> X[Citations]
+
+```
+
+
+
+---
+
+
+
+# 🏢 Enterprise Knowledge Graph
+
+
+
+A major differentiator between ordinary search engines and platforms such as Glean is the ability to model **people + documents + organizations + projects + interactions**.
+
+
+
+```mermaid
+
+graph TD
+
+
+
+    A[Employee]
+
+
+
+    A --> B[Team]
+
+    A --> C[Project]
+
+    A --> D[Documents]
+
+    A --> E[Messages]
+
+    A --> F[Repositories]
+
+
+
+    B --> C
+
+
+
+    C --> D
+
+    C --> F
+
+
+
+    D --> G[Topics]
+
+    D --> H[Customers]
+
+    D --> I[Products]
+
+
+
+    E --> D
+
+    E --> A
+
+
+
+    F --> D
+
+
+
+    G --> J[Knowledge Graph]
+
+
+
+    H --> J
+
+    I --> J
+
+```
+
+
+
+---
+
+
+
+# 🧱 Enterprise AI Search Layers
+
+
+
+| Layer            | Commercial Examples               | Open-Source Options                   |
+
+| ---------------- | --------------------------------- | ------------------------------------- |
+
+| User Interface   | Glean, Rovo, Guru                 | Open WebUI, LibreChat, custom React   |
+
+| Search API       | Coveo, Algolia, Yext              | OpenSearch, Solr, Vespa, Typesense    |
+
+| Keyword Search   | Elastic, Algolia                  | Lucene, Solr, OpenSearch              |
+
+| Vector Search    | Azure AI Search, Vertex AI Search | Qdrant, Milvus, pgvector              |
+
+| Hybrid Retrieval | Coveo, Elastic, Algolia           | OpenSearch, Vespa, Solr               |
+
+| Reranking        | Coveo, Sinequa                    | Cross-encoders, Sentence Transformers |
+
+| Embeddings       | Vertex AI, Cohere, OpenAI         | BGE, E5, Sentence Transformers        |
+
+| RAG              | Vertex AI Search, Azure AI Search | LlamaIndex, Haystack, RAGFlow         |
+
+| Document Parsing | Sinequa, IBM                      | Tika, Docling, Unstructured           |
+
+| OCR              | Enterprise platforms              | Tesseract, OCRmyPDF                   |
+
+| Knowledge Graph  | Glean                             | Jena, Neo4j, JanusGraph               |
+
+| Connectors       | Glean, Coveo, Yext                | Airbyte, Meltano, custom crawlers     |
+
+| Authorization    | Glean, Microsoft                  | Keycloak, OpenFGA, OPA                |
+
+| Observability    | Coveo, Elastic                    | OpenTelemetry, Prometheus, Grafana    |
+
+| LLM              | Commercial APIs                   | vLLM, Ollama, Hugging Face models     |
+
+| Infrastructure   | Managed Cloud                     | Kubernetes, Docker                    |
+
+
+
+---
+
+
+
+# ⚖️ Commercial vs Open-Source
+
+
+
+| Capability            | SaaS Enterprise Search     | Open-Source Stack                          |
+
+| --------------------- | -------------------------- | ------------------------------------------ |
+
+| Deployment            | Managed                    | Self-hosted / cloud                        |
+
+| Connectors            | Usually extensive          | Must assemble/build                        |
+
+| Search Engine         | Included                   | OpenSearch / Solr / Vespa / others         |
+
+| Vector Search         | Included                   | Qdrant / Milvus / pgvector                 |
+
+| RAG                   | Usually integrated         | Build with LlamaIndex / Haystack / RAGFlow |
+
+| Security Trimming     | Usually integrated         | Must architect carefully                   |
+
+| Knowledge Graph       | Often integrated           | Build with graph database                  |
+
+| Relevance Tuning      | Managed tooling            | Fully customizable                         |
+
+| Personalization       | Often built-in             | Custom implementation                      |
+
+| AI Answers            | Integrated                 | LLM + RAG                                  |
+
+| Data Residency        | Vendor-dependent           | Full control                               |
+
+| Vendor Lock-in        | Higher                     | Lower                                      |
+
+| Infrastructure        | Minimal operational burden | Significant                                |
+
+| Customization         | Medium–High                | Very High                                  |
+
+| Upfront Cost          | Subscription               | Infrastructure + engineering               |
+
+| Long-Term Control     | Vendor-controlled          | User-controlled                            |
+
+| Enterprise Connectors | Strong                     | Requires engineering                       |
+
+| Offline / Air-Gapped  | Limited                    | Excellent                                  |
+
+| Source Code           | Usually unavailable        | Available                                  |
+
+| Extensibility         | APIs / SDKs                | Full-stack extensibility                   |
+
+
+
+---
+
+
+
+# 🚀 Recommended Open-Source Stacks
+
+
+
+## 1. 🏆 General Enterprise AI Search
+
+
+
+```text
+
+OpenSearch
+
+    +
+
+Apache Tika
+
+    +
+
+Qdrant
+
+    +
+
+LlamaIndex
+
+    +
+
+Keycloak
+
+    +
+
+OpenFGA
+
+    +
+
+vLLM
+
+    +
+
+OpenTelemetry
+
+```
+
+
+
+Best general-purpose architecture for building a self-hosted enterprise search platform.
+
+
+
+---
+
+
+
+## 2. 🧠 Glean-Like Workplace Search
+
+
+
+```text
+
+OpenSearch
+
+    +
+
+Apache Tika / Unstructured
+
+    +
+
+Qdrant
+
+    +
+
+Neo4j / Apache Jena
+
+    +
+
+LlamaIndex
+
+    +
+
+Keycloak
+
+    +
+
+OpenFGA
+
+    +
+
+RAGFlow
+
+    +
+
+vLLM
+
+```
+
+
+
+Focus:
+
+
+
+* People search
+
+* Document search
+
+* Slack / GitHub / Confluence search
+
+* Knowledge graph
+
+* Personalized results
+
+* Permission-aware retrieval
+
+* AI answers
+
+
+
+---
+
+
+
+## 3. ⚡ High-Performance AI Search
+
+
+
+```text
+
+Vespa
+
+    +
+
+Custom Connectors
+
+    +
+
+Sentence Transformers
+
+    +
+
+Cross-Encoder Reranking
+
+    +
+
+vLLM
+
+    +
+
+OpenTelemetry
+
+```
+
+
+
+Best when **search relevance, ranking, low latency and large-scale serving** are primary requirements.
+
+
+
+---
+
+
+
+## 4. 🔍 Classic Enterprise Search
+
+
+
+```text
+
+Apache Solr
+
+    +
+
+Apache Tika
+
+    +
+
+Apache Spark
+
+    +
+
+Qdrant
+
+    +
+
+Haystack
+
+    +
+
+Keycloak
+
+```
+
+
+
+A strong architecture for organizations already familiar with the Apache ecosystem.
+
+
+
+---
+
+
+
+## 5. 🛍️ Algolia-Like Application Search
+
+
+
+```text
+
+Typesense
+
+    +
+
+Vector Search
+
+    +
+
+Sentence Transformers
+
+    +
+
+Hybrid Retrieval
+
+    +
+
+Reranker
+
+    +
+
+Custom React Search UI
+
+```
+
+
+
+Best for:
+
+
+
+* E-commerce
+
+* SaaS applications
+
+* Documentation
+
+* Product catalogs
+
+* Websites
+
+* Customer portals
+
+
+
+---
+
+
+
+## 6. 🤖 Enterprise RAG Search
+
+
+
+```text
+
+OpenSearch
+
+    +
+
+Docling
+
+    +
+
+Qdrant
+
+    +
+
+RAGFlow
+
+    +
+
+vLLM
+
+    +
+
+Langfuse
+
+```
+
+
+
+Best for:
+
+
+
+* Enterprise document Q&A
+
+* Internal knowledge assistants
+
+* Research
+
+* Legal documents
+
+* Technical documentation
+
+* Compliance search
+
+
+
+---
+
+
+
+# 🏗️ Fully Open Enterprise AI Search Stack
+
+
+
+```mermaid
+
+flowchart TB
+
+
+
+    UI[Enterprise Search UI]
+
+
+
+    API[Search / RAG API]
+
+
+
+    ORCH[Search Orchestrator]
+
+
+
+    RETRIEVE[Hybrid Retrieval]
+
+
+
+    RERANK[Reranking]
+
+
+
+    SEC[Security / Authorization]
+
+
+
+    LLM[Open LLM]
+
+
+
+    UI --> API
+
+
+
+    API --> ORCH
+
+
+
+    ORCH --> RETRIEVE
+
+
+
+    RETRIEVE --> RERANK
+
+
+
+    RERANK --> SEC
+
+
+
+    SEC --> LLM
+
+
+
+    LLM --> API
+
+
+
+    subgraph Search Infrastructure
+
+
+
+        BM25[OpenSearch / Solr / Lucene]
+
+
+
+        VECTOR[Qdrant / Milvus / pgvector]
+
+
+
+        GRAPH[Neo4j / Jena]
+
+
+
+    end
+
+
+
+    RETRIEVE --> BM25
+
+    RETRIEVE --> VECTOR
+
+    RETRIEVE --> GRAPH
+
+
+
+    subgraph Ingestion
+
+
+
+        CONNECT[Connectors]
+
+
+
+        PARSE[Apache Tika / Docling]
+
+
+
+        EMBED[Embedding Models]
+
+
+
+    end
+
+
+
+    CONNECT --> PARSE
+
+
+
+    PARSE --> BM25
+
+    PARSE --> EMBED
+
+
+
+    EMBED --> VECTOR
+
+    PARSE --> GRAPH
+
+
+
+    subgraph Security
+
+
+
+        IAM[Keycloak]
+
+
+
+        AUTHZ[OpenFGA / OPA]
+
+
+
+    end
+
+
+
+    SEC --> IAM
+
+    SEC --> AUTHZ
+
+```
+
+
+
+---
+
+
+
+# 🌐 Open-Source Enterprise Search Landscape
+
+
+
+```mermaid
+
+mindmap
+
+  root((Enterprise AI Search))
+
+    Search Engines
+
+      OpenSearch
+
+      Solr
+
+      Vespa
+
+      Lucene
+
+      Typesense
+
+      Meilisearch
+
+      Quickwit
+
+    Neural Search
+
+      Vector Search
+
+      Hybrid Search
+
+      Embeddings
+
+      Reranking
+
+      HNSW
+
+    Vector Databases
+
+      Qdrant
+
+      Milvus
+
+      pgvector
+
+      FAISS
+
+    RAG
+
+      RAGFlow
+
+      LlamaIndex
+
+      Haystack
+
+      Dify
+
+      LangChain
+
+      GraphRAG
+
+    Knowledge Graph
+
+      Neo4j
+
+      Apache Jena
+
+      JanusGraph
+
+      RDF
+
+    Document Processing
+
+      Apache Tika
+
+      Docling
+
+      Unstructured
+
+      OCR
+
+    Security
+
+      Keycloak
+
+      OpenFGA
+
+      OPA
+
+      Apache Ranger
+
+    Observability
+
+      OpenTelemetry
+
+      Prometheus
+
+      Grafana
+
+      Langfuse
+
+```
+
+
+
+---
+
+
+
+# 🔬 Search Technology Comparison
+
+
+
+| Technology  | Keyword |  Vector |  Hybrid  |    RAG   | Knowledge Graph | Distributed |
+
+| ----------- | :-----: | :-----: | :------: | :------: | :-------------: | :---------: |
+
+| OpenSearch  |    ✅    |    ✅    |     ✅    |     ✅    |        ❌        |      ✅      |
+
+| Vespa       |    ✅    |    ✅    |     ✅    |     ✅    |     Partial     |      ✅      |
+
+| Apache Solr |    ✅    |    ✅    |     ✅    |     ✅    |        ❌        |      ✅      |
+
+| Lucene      |    ✅    |    ✅    | Possible |     ❌    |        ❌        |   Library   |
+
+| Typesense   |    ✅    |    ✅    |     ✅    | Possible |        ❌        |      ✅      |
+
+| Meilisearch |    ✅    |    ✅    |     ✅    | Possible |        ❌        |   Limited   |
+
+| Quickwit    |    ✅    | Limited | Possible | Possible |        ❌        |      ✅      |
+
+| Qdrant      |    ❌    |    ✅    |  Partial |     ✅    |        ❌        |      ✅      |
+
+| Milvus      |    ❌    |    ✅    |  Partial |     ✅    |        ❌        |      ✅      |
+
+| pgvector    | Partial |    ✅    |     ✅    |     ✅    |        ❌        |  PostgreSQL |
+
+| Neo4j       |    ❌    |    ✅    | Possible |     ✅    |        ✅        |      ✅      |
+
+| RAGFlow     | Partial |    ✅    |     ✅    |     ✅    |     Partial     |      ✅      |
+
+
+
+---
+
+
+
+# 🎯 Which Open-Source Project Should You Choose?
+
+
+
+| Requirement                      | Recommended Starting Point                |
+
+| -------------------------------- | ----------------------------------------- |
+
+| Glean-like enterprise search     | **OpenSearch + Qdrant + Knowledge Graph** |
+
+| Maximum search relevance         | **Vespa**                                 |
+
+| Traditional enterprise search    | **Apache Solr**                           |
+
+| Elasticsearch-style architecture | **OpenSearch**                            |
+
+| Simple application search        | **Typesense**                             |
+
+| Developer-friendly search        | **Meilisearch**                           |
+
+| Cloud-object-storage search      | **Quickwit**                              |
+
+| Search library                   | **Apache Lucene / Tantivy**               |
+
+| Vector database                  | **Qdrant / Milvus**                       |
+
+| PostgreSQL-centric architecture  | **pgvector**                              |
+
+| Document ingestion               | **Apache Tika / Docling / Unstructured**  |
+
+| RAG                              | **RAGFlow / LlamaIndex / Haystack**       |
+
+| Knowledge graph                  | **Neo4j / Apache Jena / JanusGraph**      |
+
+| Enterprise IAM                   | **Keycloak**                              |
+
+| Relationship authorization       | **OpenFGA**                               |
+
+| Policy engine                    | **Open Policy Agent**                     |
+
+| LLM inference                    | **vLLM**                                  |
+
+| LLM observability                | **Langfuse / OpenTelemetry**              |
+
+
+
+---
+
+
+
+# 🧩 Building a Glean Alternative
+
+
+
+A practical open-source Glean-style architecture can look like:
+
+
+
+```text
+
+                       ┌───────────────────┐
+
+                       │   Search UI       │
+
+                       └─────────┬─────────┘
+
+                                 │
+
+                       ┌─────────▼─────────┐
+
+                       │ Search API        │
+
+                       └─────────┬─────────┘
+
+                                 │
+
+                  ┌──────────────▼──────────────┐
+
+                  │    Search Orchestrator      │
+
+                  └──────────────┬──────────────┘
+
+                                 │
+
+             ┌───────────────────┼───────────────────┐
+
+             │                   │                   │
+
+       ┌─────▼─────┐       ┌─────▼─────┐       ┌────▼────┐
+
+       │  Keyword  │       │  Vector   │       │  Graph  │
+
+       │  Search   │       │  Search   │       │ Search  │
+
+       └─────┬─────┘       └─────┬─────┘       └────┬────┘
+
+             │                   │                   │
+
+             └───────────────────┼───────────────────┘
+
+                                 │
+
+                          ┌──────▼──────┐
+
+                          │  Reranker   │
+
+                          └──────┬──────┘
+
+                                 │
+
+                          ┌──────▼──────┐
+
+                          │ Permissions │
+
+                          └──────┬──────┘
+
+                                 │
+
+                          ┌──────▼──────┐
+
+                          │     LLM     │
+
+                          └──────┬──────┘
+
+                                 │
+
+                          ┌──────▼──────┐
+
+                          │ AI Answer + │
+
+                          │ Citations   │
+
+                          └─────────────┘
+
+```
+
+
+
+### Data Sources
+
+
+
+```text
+
+Google Drive
+
+Slack
+
+Microsoft 365
+
+SharePoint
+
+Confluence
+
+Notion
+
+GitHub
+
+GitLab
+
+Jira
+
+Salesforce
+
+ServiceNow
+
+Databases
+
+Email
+
+Internal Websites
+
+File Shares
+
+Data Warehouses
+
+```
+
+
+
+### Open-Source Building Blocks
+
+
+
+```text
+
+Connectors
+
+    ↓
+
+Apache Tika / Docling
+
+    ↓
+
+Chunking + Metadata
+
+    ↓
+
+Embedding Model
+
+    ↓
+
+┌───────────────────────────────┐
+
+│                               │
+
+│ OpenSearch                    │
+
+│ Qdrant                        │
+
+│ Knowledge Graph               │
+
+│                               │
+
+└───────────────────────────────┘
+
+    ↓
+
+Hybrid Retrieval
+
+    ↓
+
+Reranking
+
+    ↓
+
+Permission Filtering
+
+    ↓
+
+LLM
+
+    ↓
+
+Grounded Answer
+
+```
+
+
+
+---
+
+
+
+# 🔐 The Most Important Enterprise Search Feature: Security
+
+
+
+Enterprise AI Search is fundamentally different from public search because **retrieval itself must be permission-aware**.
+
+
+
+A secure architecture should enforce:
+
+
+
+```text
+
+User Identity
+
+      ↓
+
+Authentication
+
+      ↓
+
+Groups / Roles
+
+      ↓
+
+Document Permissions
+
+      ↓
+
+Query-Time Security Filtering
+
+      ↓
+
+Retrieval
+
+      ↓
+
+Reranking
+
+      ↓
+
+LLM Context
+
+```
+
+
+
+The security boundary should exist **before content reaches the LLM**.
+
+
+
+```mermaid
+
+flowchart LR
+
+
+
+    A[User] --> B[Identity]
+
+
+
+    B --> C[Authorization]
+
+
+
+    C --> D[Search Query]
+
+
+
+    D --> E[Retrieval]
+
+
+
+    E --> F[Permission Filter]
+
+
+
+    F --> G[Reranking]
+
+
+
+    G --> H[LLM]
+
+
+
+    H --> I[Answer]
+
+
+
+    J[Unauthorized Documents] -.-> F
+
+
+
+    F -.-> K[Blocked]
+
+```
+
+
+
+---
+
+
+
+# 🚀 Minimal Fully Open-Source Stack
+
+
+
+For a startup or internal engineering team wanting to build an Enterprise AI Search product without depending on a commercial search vendor:
+
+
+
+```text
+
+Frontend
+
+    ↓
+
+React / Next.js
+
+    ↓
+
+FastAPI / Go
+
+    ↓
+
+OpenSearch
+
+    ↓
+
+Qdrant
+
+    ↓
+
+LlamaIndex / Haystack
+
+    ↓
+
+vLLM
+
+    ↓
+
+Open Models
+
+
+
+Security:
+
+Keycloak
+
+OpenFGA
+
+OPA
+
+
+
+Documents:
+
+Apache Tika
+
+Docling
+
+Unstructured
+
+
+
+Observability:
+
+OpenTelemetry
+
+Prometheus
+
+Grafana
+
+Langfuse
+
+```
+
+
+
+---
+
+
+
+# 🏆 Suggested Open-Source Reference Architecture
+
+
+
+```text
+
+                    ┌─────────────────────┐
+
+                    │   Enterprise Users  │
+
+                    └──────────┬──────────┘
+
+                               │
+
+                    ┌──────────▼──────────┐
+
+                    │   Search Interface  │
+
+                    └──────────┬──────────┘
+
+                               │
+
+                    ┌──────────▼──────────┐
+
+                    │   Search Gateway    │
+
+                    └──────────┬──────────┘
+
+                               │
+
+              ┌────────────────┼────────────────┐
+
+              │                │                │
+
+        ┌─────▼─────┐    ┌─────▼─────┐    ┌────▼─────┐
+
+        │  OpenSearch│    │  Qdrant   │    │ Knowledge│
+
+        │  / Solr    │    │  / Milvus │    │  Graph   │
+
+        └─────┬─────┘    └─────┬─────┘    └────┬─────┘
+
+              │                │                │
+
+              └────────────────┼────────────────┘
+
+                               │
+
+                       ┌───────▼────────┐
+
+                       │ Hybrid Search  │
+
+                       └───────┬────────┘
+
+                               │
+
+                       ┌───────▼────────┐
+
+                       │   Reranking    │
+
+                       └───────┬────────┘
+
+                               │
+
+                       ┌───────▼────────┐
+
+                       │  Authorization │
+
+                       └───────┬────────┘
+
+                               │
+
+                       ┌───────▼────────┐
+
+                       │      RAG       │
+
+                       └───────┬────────┘
+
+                               │
+
+                       ┌───────▼────────┐
+
+                       │      LLM       │
+
+                       └───────┬────────┘
+
+                               │
+
+                       ┌───────▼────────┐
+
+                       │ Answer + Links │
+
+                       └────────────────┘
+
+```
+
+
+
+---
+
+
+
+# 🌟 Why Open-Source Enterprise AI Search Matters
+
+
+
+Commercial platforms such as **Glean, Coveo, Elastic, Vertex AI Search, Azure AI Search, Watson Discovery, Yext, Lucidworks, Algolia and Sinequa** package many components into integrated products.
+
+
+
+The open-source ecosystem instead provides the ability to assemble the same fundamental architecture from independent components:
+
+
+
+```text
+
+Commercial Enterprise AI Search
+
+              │
+
+              ▼
+
+┌─────────────────────────────────┐
+
+│ Search Engine                   │
+
+│ Vector Database                 │
+
+│ Embedding Model                 │
+
+│ Reranker                        │
+
+│ Document Parser                 │
+
+│ Connectors                      │
+
+│ Knowledge Graph                 │
+
+│ Authorization                   │
+
+│ RAG                             │
+
+│ LLM                             │
+
+│ Observability                   │
+
+└─────────────────────────────────┘
+
+              │
+
+              ▼
+
+       Open-Source Stack
+
+```
+
+
+
+This makes it possible to build highly customized systems with:
+
+
+
+* Full data ownership
+
+* Self-hosting
+
+* Private-cloud deployment
+
+* Air-gapped deployment
+
+* Custom retrieval algorithms
+
+* Custom ranking models
+
+* Custom embedding models
+
+* Custom connectors
+
+* Custom security policies
+
+* No mandatory search-vendor lock-in
+
+* Full control over the AI/RAG layer
+
+
+
+---
+
+
+
+# 🤝 Contributing
+
+
+
+Contributions are welcome!
+
+
+
+Please consider contributing:
+
+
+
+* New enterprise AI search platforms
+
+* Open-source search engines
+
+* Vector databases
+
+* RAG frameworks
+
+* Document processing tools
+
+* Enterprise connectors
+
+* Knowledge graph projects
+
+* Search ranking systems
+
+* Reranking models
+
+* Embedding models
+
+* Authorization frameworks
+
+* Search evaluation tools
+
+* AI observability projects
+
+* Architecture diagrams
+
+* Benchmarks
+
+* Tutorials
+
+* Deployment examples
+
+
+
+When adding an open-source project, please verify its **current license** and avoid categorizing source-available or proprietary products as open source.
+
+
+
+---
+
+
+
+# ⚠️ Disclaimer
+
+
+
+This repository is an independent technical curation and is **not affiliated with or endorsed by any company or project listed here**.
+
+
+
+Commercial product capabilities, pricing, licensing and product names can change over time.
+
+
+
+The term **"Open-Source"** in this repository is intended to prioritize projects whose source code and licensing permit meaningful self-hosting and modification. Projects with source-available, open-core, community-only or edition-specific licensing should be evaluated carefully before production use.
+
+
+
+Always verify the current license and terms of the individual project before deploying it commercially.
+
+
+
+---
+
+
+
+## ⭐ Star This Repository
+
+
+
+If you are interested in:
+
+
+
+* Enterprise Search
+
+* AI Search
+
+* Semantic Search
+
+* Neural Search
+
+* Vector Search
+
+* Hybrid Search
+
+* RAG
+
+* Knowledge Graphs
+
+* Enterprise AI
+
+* Open-Source AI
+
+* Workplace Search
+
+* AI Agents
+
+
+
+consider giving this repository a ⭐ **Star** and contributing new projects.
+
+
+
+---
+
+
+
+**Last updated: September 2026**
