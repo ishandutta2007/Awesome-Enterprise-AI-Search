@@ -713,35 +713,21 @@ flowchart LR
 
 
 
-| Commercial Platform         | Open-Source Building Blocks                                                                       |
-
-| --------------------------- | ------------------------------------------------------------------------------------------------- |
-
-| **Glean**                   | OpenSearch + Apache Tika + Qdrant + Keycloak + OpenFGA + LlamaIndex + LangGraph + knowledge graph |
-
-| **Coveo**                   | OpenSearch / Vespa + hybrid retrieval + reranking + Qdrant + ML ranking + OpenTelemetry           |
-
-| **Elastic AI Search**       | OpenSearch / Apache Solr + vector search + RAG + OpenTelemetry                                    |
-
-| **Google Vertex AI Search** | OpenSearch / Vespa + LlamaIndex + RAGFlow + Qdrant + open embedding models                        |
-
-| **Azure AI Search**         | OpenSearch + Apache Tika + Qdrant + LlamaIndex + vLLM                                             |
-
-| **IBM watsonx Discovery**   | Apache Tika + OpenSearch + Haystack + Qdrant + LLM                                                |
-
-| **Yext Search**             | Knowledge graph + OpenSearch / Vespa + structured content APIs                                    |
-
-| **Lucidworks Fusion**       | Apache Solr + Apache Spark + Tika + ML/RAG components                                             |
-
-| **Algolia NeuralSearch**    | Typesense / Meilisearch + vector database + hybrid retrieval + reranker                           |
-
-| **Sinequa**                 | OpenSearch / Solr + Tika + NLP models + knowledge graph + RAG                                     |
-
-| **Amazon Kendra**           | OpenSearch + connectors + Tika + embeddings + RAG                                                 |
-
-| **ServiceNow AI Search**    | OpenSearch + Keycloak/OpenFGA + RAG + enterprise connectors                                       |
-
-| **Atlassian Rovo**          | OpenSearch + LlamaIndex + knowledge graph + RAG + connectors                                      |
+| Commercial Platform | Open-Source Building Blocks |
+| --- | --- |
+| 🏢 **Glean** | ⚡ OpenSearch + Onyx + Apache Tika + Qdrant + Keycloak + OpenFGA + LlamaIndex + LangGraph + Neo4j |
+| 🏢 **Coveo** | ⚡ OpenSearch / Vespa + hybrid retrieval + reranking + Qdrant + ML ranking + OpenTelemetry |
+| 🏢 **Elastic AI Search** | ⚡ OpenSearch / Apache Solr + vector search + RAG + OpenTelemetry |
+| 🏢 **Google Vertex AI Search** | ⚡ OpenSearch / Vespa + LlamaIndex + RAGFlow + Qdrant + open embedding models |
+| 🏢 **Azure AI Search** | ⚡ OpenSearch + Apache Tika + Qdrant + LlamaIndex + vLLM |
+| 🏢 **IBM watsonx Discovery** | ⚡ Apache Tika + OpenSearch + Haystack + Qdrant + LLM |
+| 🏢 **Yext Search** | ⚡ Knowledge graph + OpenSearch / Vespa + structured content APIs |
+| 🏢 **Lucidworks Fusion** | ⚡ Apache Solr + Apache Spark + Tika + ML/RAG components |
+| 🏢 **Algolia NeuralSearch** | ⚡ Typesense / Meilisearch + vector database + hybrid retrieval + reranker |
+| 🏢 **Sinequa** | ⚡ OpenSearch / Solr + Tika + NLP models + knowledge graph + RAG |
+| 🏢 **Amazon Kendra** | ⚡ OpenSearch + connectors + Tika + embeddings + RAG |
+| 🏢 **ServiceNow AI Search** | ⚡ OpenSearch + Keycloak/OpenFGA + RAG + enterprise connectors |
+| 🏢 **Atlassian Rovo** | ⚡ OpenSearch + LlamaIndex + knowledge graph + RAG + connectors |
 
 
 
@@ -987,41 +973,24 @@ graph TD
 
 
 
-| Layer            | Commercial Examples               | Open-Source Options                   |
-
-| ---------------- | --------------------------------- | ------------------------------------- |
-
-| User Interface   | Glean, Rovo, Guru                 | Open WebUI, LibreChat, custom React   |
-
-| Search API       | Coveo, Algolia, Yext              | OpenSearch, Solr, Vespa, Typesense    |
-
-| Keyword Search   | Elastic, Algolia                  | Lucene, Solr, OpenSearch              |
-
-| Vector Search    | Azure AI Search, Vertex AI Search | Qdrant, Milvus, pgvector              |
-
-| Hybrid Retrieval | Coveo, Elastic, Algolia           | OpenSearch, Vespa, Solr               |
-
-| Reranking        | Coveo, Sinequa                    | Cross-encoders, Sentence Transformers |
-
-| Embeddings       | Vertex AI, Cohere, OpenAI         | BGE, E5, Sentence Transformers        |
-
-| RAG              | Vertex AI Search, Azure AI Search | LlamaIndex, Haystack, RAGFlow         |
-
-| Document Parsing | Sinequa, IBM                      | Tika, Docling, Unstructured           |
-
-| OCR              | Enterprise platforms              | Tesseract, OCRmyPDF                   |
-
-| Knowledge Graph  | Glean                             | Jena, Neo4j, JanusGraph               |
-
-| Connectors       | Glean, Coveo, Yext                | Airbyte, Meltano, custom crawlers     |
-
-| Authorization    | Glean, Microsoft                  | Keycloak, OpenFGA, OPA                |
-
-| Observability    | Coveo, Elastic                    | OpenTelemetry, Prometheus, Grafana    |
-
-| LLM              | Commercial APIs                   | vLLM, Ollama, Hugging Face models     |
-
-| Infrastructure   | Managed Cloud                     | Kubernetes, Docker                    |
+| Layer | Commercial Examples | Open-Source Options |
+| --- | --- | --- |
+| 🖥️ User Interface | Glean, Rovo, Guru | Open WebUI, LibreChat, custom React |
+| 🔌 Search API | Coveo, Algolia, Yext | OpenSearch, Solr, Vespa, Typesense |
+| 🔤 Keyword Search | Elastic, Algolia | Lucene, Solr, OpenSearch |
+| 🔢 Vector Search | Azure AI Search, Vertex AI Search | Qdrant, Milvus, pgvector |
+| 🔀 Hybrid Retrieval | Coveo, Elastic, Algolia | OpenSearch, Vespa, Solr |
+| 🎯 Reranking | Coveo, Sinequa | Cross-encoders, Sentence Transformers |
+| 🧬 Embeddings | Vertex AI, Cohere, OpenAI | BGE, E5, Sentence Transformers |
+| 📚 RAG | Vertex AI Search, Azure AI Search | LlamaIndex, Haystack, RAGFlow |
+| 📄 Document Parsing | Sinequa, IBM | Tika, Docling, Unstructured |
+| 👁️ OCR | Enterprise platforms | Tesseract, OCRmyPDF |
+| 🕸️ Knowledge Graph | Glean | Jena, Neo4j, JanusGraph |
+| 🔗 Connectors | Glean, Coveo, Yext | Airbyte, Meltano, custom crawlers |
+| 🔐 Authorization | Glean, Microsoft | Keycloak, OpenFGA, OPA |
+| 📊 Observability | Coveo, Elastic | OpenTelemetry, Prometheus, Grafana |
+| 🤖 LLM | Commercial APIs | vLLM, Ollama, Hugging Face models |
+| ☁️ Infrastructure | Managed Cloud | Kubernetes, Docker |
 
 
 
@@ -1033,49 +1002,26 @@ graph TD
 
 
 
-| Capability            | SaaS Enterprise Search     | Open-Source Stack                          |
-
-| --------------------- | -------------------------- | ------------------------------------------ |
-
-| Deployment            | Managed                    | Self-hosted / cloud                        |
-
-| Connectors            | Usually extensive          | Must assemble/build                        |
-
-| Search Engine         | Included                   | OpenSearch / Solr / Vespa / others         |
-
-| Vector Search         | Included                   | Qdrant / Milvus / pgvector                 |
-
-| RAG                   | Usually integrated         | Build with LlamaIndex / Haystack / RAGFlow |
-
-| Security Trimming     | Usually integrated         | Must architect carefully                   |
-
-| Knowledge Graph       | Often integrated           | Build with graph database                  |
-
-| Relevance Tuning      | Managed tooling            | Fully customizable                         |
-
-| Personalization       | Often built-in             | Custom implementation                      |
-
-| AI Answers            | Integrated                 | LLM + RAG                                  |
-
-| Data Residency        | Vendor-dependent           | Full control                               |
-
-| Vendor Lock-in        | Higher                     | Lower                                      |
-
-| Infrastructure        | Minimal operational burden | Significant                                |
-
-| Customization         | Medium–High                | Very High                                  |
-
-| Upfront Cost          | Subscription               | Infrastructure + engineering               |
-
-| Long-Term Control     | Vendor-controlled          | User-controlled                            |
-
-| Enterprise Connectors | Strong                     | Requires engineering                       |
-
-| Offline / Air-Gapped  | Limited                    | Excellent                                  |
-
-| Source Code           | Usually unavailable        | Available                                  |
-
-| Extensibility         | APIs / SDKs                | Full-stack extensibility                   |
+| Capability | SaaS Enterprise Search | Open-Source Stack |
+| --- | --- | --- |
+| 🚀 Deployment | Managed Cloud | Self-hosted / Private Cloud |
+| 🔌 Connectors | 100+ Pre-built connectors | Open-source crawlers (Airbyte / Custom) |
+| 🔍 Search Engine | Proprietary Managed | OpenSearch / Solr / Vespa / Meilisearch |
+| 🧮 Vector Search | Managed Vector Index | Qdrant / Milvus / pgvector / LanceDB |
+| 📚 RAG Integration | Out-of-the-box turnkey | Modular (LlamaIndex / Haystack / RAGFlow) |
+| 🔐 Security Trimming | Native IdP sync | OpenFGA / Keycloak / OPA policy-as-code |
+| 🕸️ Knowledge Graph | Built-in Enterprise Graph | Neo4j / NebulaGraph / Memgraph |
+| 🎯 Relevance Tuning | Proprietary ML models | Fully customizable & retrainable |
+| 👤 Personalization | Pre-configured algorithms | Custom graph and telemetry models |
+| 💬 AI Answers & Agents | Integrated generative chat | vLLM / Ollama + Open WebUI / LibreChat |
+| 🛡️ Data Privacy & Compliance | Cloud-hosted vendor data | 100% Local / Air-gapped Data Residency |
+| ⛓️ Vendor Lock-in | High vendor dependency | Zero lock-in / open Apache-2.0 & MIT |
+| 🛠️ Operational Burden | Low (handled by vendor) | Moderate to High (DevOps / SRE required) |
+| 🎨 Deep Customization | Limited to vendor API | 100% Source-code customizable |
+| 💰 Cost Structure | High recurring SaaS fee | Infrastructure + initial engineering only |
+| 🔒 Source Code Audit | Proprietary black box | Full transparency & auditability |
+| 🌐 Offline / Air-Gapped | Very Limited | Full Air-Gapped Deployment Support |
+| ⚡ Extensibility | Vendor APIs / SDKs | Full-stack composable extensibility |
 
 
 
